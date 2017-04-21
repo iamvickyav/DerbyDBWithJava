@@ -1,4 +1,3 @@
-
 import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.List;
@@ -16,7 +15,8 @@ import java.util.List;
  * 
  * RUNNING THE PROGRAM: 
  * 
- * If you use cmd prompt to run this program, Run set CLASSPATH=%DERBY_INSTALL%\lib\derby.jar before running javac
+ * If you use cmd prompt to run this program, Run the following before running javac 
+ * set classpath=C:\Program Files\Java\jdk1.8.0_112\jre\lib;%DERBY_INSTALL%\lib\derby.jar;
  * 
  * If you use Eclipse to run this program, Right Click your project -> PROPERTIES -> BUILD PATH ->  
  * -> Click Add External JARs under Libraries tab -> Add Derby.jar file
