@@ -1,3 +1,5 @@
+package com.derbydb;
+
 import java.util.List;
 
 public class DBUtils {
@@ -5,7 +7,6 @@ public class DBUtils {
 	public static final String URL = "jdbc:derby:mydb;create=true";
 	//public static final String INSERT_RECORD = "INSERT INTO STUDENT VALUES (1,'LAKSH'),(20,'SIMRAN'),(30,'RADHA')";
 	//public static final String SELECT = "SELECT * FROM STUDENT";
-	
 	
 	static String formCreateQuery(String tableName){
 		return "CREATE TABLE " + tableName + " (ID INT PRIMARY KEY,NAME VARCHAR(12))"; 
