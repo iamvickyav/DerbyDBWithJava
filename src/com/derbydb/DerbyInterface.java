@@ -1,4 +1,3 @@
-package com.derbydb;
 
 import java.sql.SQLException;
 import java.util.List;
